@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/main/java/ptithcm/controller/ChangeUserController.java=UTF-8
+encoding//src/main/java/ptithcm/controller/ContactController.java=UTF-8
+encoding//src/main/java/ptithcm/controller/LoginController.java=UTF-8
+encoding//src/main/java/ptithcm/controller/MailController.java=UTF-8
+encoding//src/main/java/ptithcm/controller/ManageUserAdminController.java=UTF-8
+encoding//src/main/java/ptithcm/controller/ProductAdminController.java=UTF-8
+encoding//src/main/java/ptithcm/controller/RegisterController.java=UTF-8
+encoding//src/main/java/ptithcm/controller/SingleProductController.java=UTF-8
+encoding//src/main/java/ptithcm/entity/CartEntity.java=UTF-8
+encoding//src/main/java/ptithcm/entity/ContactEntity.java=UTF-8
+encoding//src/main/java/ptithcm/entity/CustomerEntity.java=UTF-8
+encoding//src/main/java/ptithcm/entity/ProductEntity.java=UTF-8

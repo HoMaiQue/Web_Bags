@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   		http://www.springframework.org/schema/beans/spring-beans.xsd
+	   		http://www.springframework.org/schema/context
+	   		http://www.springframework.org/schema/context/spring-context.xsd
+	   		http://www.springframework.org/schema/tx 
+			http://www.springframework.org/schema/tx/spring-tx.xsd
+			http://www.springframework.org/schema/mvc 
+			http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+	<bean id="user" class="ptithcm.bean.Company">
+		<property name="name" value="DẪN ĐẦU XU HƯỚNG THỜI TRANG" />
+		<property name="story"
+			value="Được sáng tạo bởi Công ty CP Thời trang Quốc tế Glamor, QA là thương hiệu phụ kiện thời trang cao cấp hàng đầu Việt Nam với các dòng sản phẩm chủ đạo gồm túi xách, giày dép, kính mắt, dây lưng dành cho cả nam và nữ. Phong cách thời trang Pháp là nét đặc trưng trong các thiết kế của QA, với sự kết hợp hoàn hảo của các yếu tố cổ điển và hiện đại, sang trọng và phóng khoáng, đơn giản, tiện dụng nhưng lại hết sức tinh tế. Các sản phẩm của ELLY từ lâu đã hiện diện trong tủ đồ của những người yêu thời trang như một lựa chọn hàng đầu cho bất kỳ sự kiện nào trong cuộc sống hàng ngày, đi làm, đi chơi, gặp gỡ đối tác hay các buổi tiệc trang trọng.QA hiện đang sở hữu hệ thống hơn 60 showroom sang trọng và đẳng cấp cùng kênh thương mại điện tử được đầu tư bài bản, phục vụ hàng triệu lượt khách hàng trên toàn Việt Nam. Tầm nhìn của ELLY trong những năm tới là đạt mốc 100 showroom tại Việt Nam, đồng thời mở rộng hoạt động tại các nước Đông Nam Á như Singapore, Thái Lan, Malaysia, Indonesia, Philippines và xa hơn nữa là chinh phục thị trường và người tiêu dùng Châu Á." />
+		<property name="image" value="resources/assets/images/about-us.jpg" />
+	</bean>
+	
+	<bean id="uploadfile" class="ptithcm.bean.UploadFile">
+		<property name="basePath" value="E:\\eclipse_space\\New folder\\Web_Bags\\src\\main\\webapp\\resources\\assets\\images" />
+	</bean>
+	
+
+</beans>
